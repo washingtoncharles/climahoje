@@ -30,6 +30,35 @@ body {
   margin-right: 20px;
 }
 
+/* SHOWCASE */
+.showcase-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 60px;
+}
+
+.showcase > h2:first-child {
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: #2A394F;
+}
+
+.showcase > p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  color: #9AA0A8;
+}
+
+.showcase > h2:last-child {
+  font-weight: 700;
+  font-size: 5.3125rem;
+  color: #2A394F;
+}
+
 /* UTILITIES */
 .custom-input {
   border: none;
